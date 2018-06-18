@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c1ec33b1-cb4b-4718-a3b1-234c53012b9e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://145.49.49.52:7101/soa-infra/services/default/ValidatePayment/validatepaymentprocess_client_ep?WSDL" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="validatepaymentprocess_client_ep.wsdl" MetadataType="Wsdl" ID="76666dbc-8b0c-4e59-9994-ce78d92ede67" SourceId="1" SourceUrl="http://145.49.49.52:7101/soa-infra/services/default/ValidatePayment/validatepaymentprocess_client_ep?WSDL=ValidatePayment.wsdl" />
+    <MetadataFile FileName="validatepaymentprocess_client_ep1.wsdl" MetadataType="Wsdl" ID="c433d6a1-9f24-474d-8516-f3109a78b7e4" SourceId="1" SourceUrl="http://145.49.49.52:7101/soa-infra/services/default/ValidatePayment/validatepaymentprocess_client_ep?WSDL" />
+    <MetadataFile FileName="CanonicalOrder.xsd" MetadataType="Schema" ID="2e34f903-2bd2-4157-874d-00460a25025f" SourceId="1" SourceUrl="http://145.49.49.52:7101/soa-infra/services/default/ValidatePayment/validatepaymentprocess_client_ep?XSD=../Schemas/CanonicalOrder.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
